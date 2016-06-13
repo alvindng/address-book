@@ -49,7 +49,7 @@ $(function(){
                             '</div>');
   });
 
-  $("form#contactForm").submit(function(event){
+  $("form#contactForm").submit(function(event) {
     event.preventDefault();
     var first = $("input#first").val();
     var last = $("input#last").val();
@@ -64,7 +64,6 @@ $(function(){
     });
 
     $("ul#output").append("<li><span class='contact'>" + newContact.fullName()+ "</span></li>");
-
 
     $('.contact').last().click(function() {
       $('.output').show();
