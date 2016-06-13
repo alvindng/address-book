@@ -31,6 +31,26 @@
               <label for="#last">Enter your last name:</label>
               <input type="text" id="last">
             </div>
+
+            <div id="addresses">
+              <div class="address">
+                <div class="form-group">
+                  <label for="#street">Street:</label>
+                  <input type="text" id="street">
+                </div>
+                <div class="form-group">
+                  <label for="#city">City:</label>
+                  <input type="text" id="city">
+                </div>
+                <div class="form-group">
+                  <label for="#state">State:</label>
+                  <input type="text" id="state">
+                </div>
+              </div>
+            </div>
+
+            <span class="btn btn-primary" id="add-address">Another address</span>
+
             <button type="submit" name="button" class="btn">Submit</button>
           </form>
 
@@ -45,6 +65,9 @@
 
             <p>First name: <span class="first"></span></p>
             <p>Last Name: <span class="last"></span></p>
+            <p>Addresses:</p>
+            <ul id="addresses">
+            </ul>
           </div>
         </div>
       </div>
